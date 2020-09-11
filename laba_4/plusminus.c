@@ -1,11 +1,11 @@
-//Заменить значения элементов массива на противоположные
+//Replace the values of array elements with their opposite
 
 #include <stdio.h>
 
 void input(int n, int a[]) {
     int inp;
     for(int i = 0; i < n; i++) {
-        printf("Enter %d number of array: ", i+1);
+        printf("Enter the% dth element of the array: ", i+1);
         scanf("%d", &inp);
         a[i] = inp;
     }
