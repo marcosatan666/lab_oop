@@ -1,3 +1,4 @@
+//Find the product of integers from m to n that are multiples of k.
 #include <stdio.h>
 
 int main() {
