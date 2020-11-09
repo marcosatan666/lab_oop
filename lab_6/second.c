@@ -1,3 +1,7 @@
+//Find the number of negative elements of the matrix [MxN] located in columns with a number multiple of A.
+//Найти число отрицательных элементов матрицы [MxN], расположенных в столбцах с номером, кратным A. 
+//Memory is allocated separately for a one-dimensional array of pointers to rows of the data array. Then memory is dynamically allocated for each row of the data array.
+//Память выделяется отдельно под одномерный массив указателей на строки массива данных. Затем динамически выделяется память под каждую строку массива данных.
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
